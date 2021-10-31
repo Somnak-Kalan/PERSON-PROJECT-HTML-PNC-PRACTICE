@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: rgba(5, 131, 5, 0.568);
+}
+nav {
+    width: 100%;
+    background: linear-gradient(#330033,#440044,#550055);
+    box-shadow: 0px 0px 5px 5px white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    padding: 15px;
+}
+nav ul li a{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+} 
+nav ul li:hover{
+    transition: 1s;
+    padding: 15px;
+    background: rgba(21, 255, 0, 0.383);
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    transition: 1s;
+    background: rgb(92, 79, 79);
+    box-shadow: 1px 2px 5px 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.search{
+    width:30%;
+    margin-top: 10px;
+}
+input[type="search"]{
+    height:8vh;
+    position: relative;
+    width: 80%;
+    border-radius: 5px;
+    background: rgb(116, 113, 113);
+}
+.search a{
+    background: rgb(0, 60, 255);
+    padding: 15px;
+    border-radius: 5px;
+}
+.search a:hover{
+    transition: 1s;
+    background: rgb(90, 247, 0);
+    color: white;
+}
+.slide{
+    margin-top:2%;
+    box-shadow: 0px 0px 1px 3px white;
+    background:white;
+}
+.slide-left{
+    grid-area: left;
+    padding: 1rem;
+    background: linear-gradient(rgb(78, 45, 45),#4B4453,#B0A8B9);
+    border-radius: 0px 0rem 30rem 0px;
+}
+.slide-left p,h2{
+    position: relative;
+    text-align: center;
+    bottom:1rem;
+}
+.slide-right img {
+    width: 100%;
+    height: 70vh;
+}
+#card-lesson {
+    margin: 5rem;
+}
+.card-group{
+    display: flex;
+}
+.small small{
+    border-top: solid 1.6px white;
+    padding: 40px 0px 0px 0px;
+}
+small a:hover{
+    transition: 1s;
+    box-shadow: 1px 2px 5px 10px;
+    background: #000;
+}
+.card{
+    padding: 1rem 0px 3rem 1rem;
+    border-radius: .5rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.card a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: rgba(16, 2, 209, 0.863);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card p{
+    color: white;
+}
+.card-1{
+    word-break: break-all;
+    margin: 1.7rem;
+    background: rgba(255, 255, 255, 0.938);
+    border-radius: 10px;
+    padding: 1rem 0px 10rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.card-1 .txt{
+    word-break: keep-all;
+}
+.card-1 img{
+    height: 20vh;
+    padding: 10px;
+}
+.border-line{
+    border-top: solid ;
+} 
+.box-txt{
+    width: 80%;
+    margin: auto;
+}
+/* =============about================= */
+.txt-1{
+    word-break: break-all;
+    background:white;
+    box-shadow: rgba(22, 16, 16, 0.18) 0px 2px 4px;
+}
+.card-about-2{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background: url(../image/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-about-3{
+    background:url(../image/gif-2.gif);
+    background-size: cover;
+    background-position: center;
+}
+.card-about-4{
+    background: url(../image/layout.jpg);
+    background-size: cover;
+}
+.card-about-5{
+    background: url(../image/layout-2.png);
+    background-size: cover;
+}
+.card-about-6 img{
+    width: 100%;
+}
+.width-height-box{
+    width: 100%;
+    height: 22rem
+}
+.card-about-all{
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 5px 10px rgb(0, 0, 0);
+}
+.card-ceo{
+    border-bottom: solid 2px yellow;
+}
+.feature h2{
+    border-bottom: solid 2px;
+}
+.bg-about{
+    background: url(../image/free-1.jpg);
+    height: 70vh;
+    padding: 10px;
+    background-size: cover;
+}
+/*------------------------- section contact----------------------------- */
+.bg-contact{
+    background: url(../image/free-2.jpg);
+    height: 50vh;
+    padding: 10px;
+    background-size: cover;
+}
+#contact .bg-contact h2{
+    border-bottom: solid 3px;
+    color: white;
+}
+.address,.map{
+    background: rgba(3, 33, 82, 0.815);
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 1px;
+}
+.contact-1{
+    width: 100%;
+}
+.map{
+    background: rgb(221, 215, 215);
+}
+iframe{
+    width: 100%;
+    border-radius: 10px;
+}
+input[type="text"]{
+    width: 49%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.418);
+    color:white;
+}
+input[type="submit"],
+textarea,
+input[type="email"]{
+    width: 99%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.418);
+    color:white;
+}
+input[type="submit"]{
+    border: none;
+    background: rgba(0, 0, 255, 0.288);
+    font-size: 400;
+    color: white;
+    text-transform: uppercase;
+}
+input[type="submit"]:active{
+    background: linear-gradient(blue,green);
+}
+textarea{
+    height: 10rem;
+}
+::placeholder{
+    color: white;
+}
+/* ======================footer===================== */
+footer{
+    background:linear-gradient(rgb(238, 184, 184),rgb(179, 173, 173),rgb(138, 130, 132));
+    box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+}
+.copyright{
+    color: white;
+    text-align: center;
+    background: #000;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+ }
+ /* ================ */
+.txt-white{ 
+    color: rgb(255, 255, 255);
+}
+.txt-green{ 
+    color: rgb(0, 250, 62);
+ }
+.txt-uppercase{ 
+    text-transform: uppercase;
+ }
+.txt-black{ 
+    color: black;
+}
+.box-shadow{ 
+    box-shadow: 0px 0px 2px 2px white;
+}
+.list-style{
+    list-style: none;
+    text-decoration: none;
+}
+.justify-content-between{ 
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center; 
+    align-items: center;
+}
+.p-1{ 
+    padding: 10px;
+}
+.ml-1{ 
+    margin-left: 16px;
+}
+.m{ 
+    margin: 50px;
+}
+.mt-1{ 
+    margin-top: 20%;
+}
+.rounded{ 
+    border-radius: 5xp;
+}
+.border-0{
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.font-size{
+    font-size: 1.5rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ /* ==================== */
+@media(orientation: portrait){
+    body{
+        background: blue;
+    }
+    .card-group{
+        flex-wrap: wrap;
+    }
+}
